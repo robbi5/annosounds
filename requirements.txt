@@ -1,0 +1,6 @@
+sqlite-utils
+datasette
+datasette-block-robots
+datasette-mp3-audio
+datasette-graphql
+
