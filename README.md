@@ -13,6 +13,12 @@ The sqlite database is created with [sqlite-utils](https://github.com/simonw/sql
 
 creating from scratch
 ---------------------
+You need:
+* [datasette](https://github.com/simonw/datasette), e.g. by using `pipx`: `pipx install datasette`
+* `ffmpeg` to convert .wav into .mp3
+* [vosk-transcriber](https://alphacephei.com/vosk/) and the 2 GB big `vosk-model-de-0.21` model
+* _Anno1602: Königs-Edition_
+
 Get the Anno1602 Sounds from your _Anno1602: Königs-Edition_ installation by opening the installation folder and navigation to the `Sounds8` folder. Copy the `.wav` files to a new folder and execute `build-transcription.sh`, `build-csv.sh` as well as `build-mp3.sh`. 
 
 Go through the resulting `speech.csv` and fix the automated transcription errors by hand.
